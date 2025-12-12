@@ -1,0 +1,15 @@
+Algorithm: PRIO_P
+Processes completed: 200
+Avg Waiting: 823.1350
+Max Waiting: 1689.0000
+Avg Turnaround: 844.1300
+Max Turnaround: 1707.0000
+Context Switches: 178
+Throughput T=50: 6
+Throughput T=100: 11
+Throughput T=150: 14
+Throughput T=200: 20
+CPU Busy Time: 2100.0000
+CPU Total Time: 2101.0000
+CPU Efficiency (no CS): 0.999524
+CPU Efficiency (with CS overhead 0.001): 0.999439

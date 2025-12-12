@@ -1,0 +1,15 @@
+Algorithm: SJF_P
+Processes completed: 100
+Avg Waiting: 267.2900
+Max Waiting: 926.0000
+Avg Turnaround: 278.3600
+Max Turnaround: 946.0000
+Context Switches: 81
+Throughput T=50: 10
+Throughput T=100: 21
+Throughput T=150: 31
+Throughput T=200: 42
+CPU Busy Time: 1050.0000
+CPU Total Time: 1050.0000
+CPU Efficiency (no CS): 1.000000
+CPU Efficiency (with CS overhead 0.001): 0.999923

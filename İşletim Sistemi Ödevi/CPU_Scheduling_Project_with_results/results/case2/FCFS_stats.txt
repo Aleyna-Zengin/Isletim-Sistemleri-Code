@@ -1,0 +1,15 @@
+Algorithm: FCFS
+Processes completed: 100
+Avg Waiting: 418.0000
+Max Waiting: 851.0000
+Avg Turnaround: 428.5000
+Max Turnaround: 853.0000
+Context Switches: 99
+Throughput T=50: 5
+Throughput T=100: 10
+Throughput T=150: 14
+Throughput T=200: 18
+CPU Busy Time: 1050.0000
+CPU Total Time: 1050.0000
+CPU Efficiency (no CS): 1.000000
+CPU Efficiency (with CS overhead 0.001): 0.999906
