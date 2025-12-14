@@ -46,3 +46,11 @@ Process_ID,Arrival_Time,CPU_Burst_Time,Priority
 - Throughput
 - CPU Verimliliği
 - Bağlam Değiştirme Sayısı
+
+## Multi-Thread Bölümü
+Bu projede, CPU zamanlama algoritmalarının eş zamanlı (parallel) çalıştırılması amacıyla Java çoklu thread (multithreading) yapısı kullanılmıştır.
+Her bir CPU zamanlama algoritması ayrı bir "Runnable" görev olarak tanımlanmış ve bu görevler ExecutorService aracılığıyla ayrı thread’ler üzerinde aynı anda çalıştırılmıştır.
+Kullanılan Yapı:
+• AlgorithmTask sınıfı Runnable arayüzünü implemente eder.
+• Her algoritma (FCFS, SJF, Round Robin, Priority vb.) kendi thread’i içerisinde çalıştırılır.
+• ExecutorService ile thread havuzu oluşturulmuştur.
