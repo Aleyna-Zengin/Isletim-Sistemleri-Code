@@ -1,5 +1,5 @@
 //Kontrol Eden Öğretmene Notlar: 
-//Bu projenin belli başlı yerlerinde kullanıcı için görüntüyü güzelleştirmek ve okunabilirliği/anlaşılabilirliği arttırmak amacıyla yapay zekadan yardım alınmıştır. Örnek olarak: README.md raporundaki emojiler, düzenleme çizgileri vb. 
+//Bu projenin belli başlı yerlerinde kullanıcı için görüntüyü güzelleştirmek ve okunabilirliği/anlaşılabilirliği arttırmak amacıyla yapay zekadan yardım alınmıştır. Örnek olarak: README.md dosyasındaki proje yapısı bölümündeki düzenleme çizgileri vb.
 //Aleyna Zengin-2025/2026 Öğrenim Dönemi İşletim Sistemleri Dersi Proje Ödevi 
 //Herkesçe erişilebilir olması adına ödevin bazı yerlerinde ingilizce ana yazım dili olarak ele alınarak yazılmıştır.
 
