@@ -105,13 +105,30 @@ En uygun algoritma, yanıt verme hızı veya verim gibi sistem hedeflerine bağl
 3. Output files will be generated in the `CPU_Scheduling_Project_with_results/` directory
 ---
 
-## Multi-Thread Bölümü
+## 8. Multi-Thread Bölümü
 Bu projede, CPU zamanlama algoritmalarının performansını artırmak ve gerçek işletim sistemi davranışına daha yakın bir simülasyon oluşturmak amacıyla çoklu thread (multithreading) yaklaşımı kullanılmıştır.
 
-7.1 Amaç
+8.1 Amaç
 Ödev tanımında belirtilen: “Her yöntem ayrı bir thread olarak ve tüm yöntemler eş zamanlı olarak çalışmalı” şartını sağlamak amacıyla, her CPU zamanlama algoritması ayrı bir thread içerisinde çalıştırılmıştır.
 Bu yaklaşım sayesinde:
 • Algoritmalar birbirini beklemeden çalıştırılmıştır
 • Hesaplama süreleri paralel hale getirilmiştir
 • Gerçek çok çekirdekli sistem davranışı simüle edilmişti
 
+8.2
+Her CPU zamanlama algoritması için Runnable arayüzünü implemente eden bir görev tanımlanmıştır.
+
+8.3
+Tüm algoritmalar, Java’nın ExecutorService yapısı kullanılarak eş zamanlı olarak çalıştırılmıştır.
+Her algoritma:
+• Ayrı bir thread üzerinde çalışır
+• Kendi çıktı dosyasını üretir
+• Ortak veri paylaşımı yapmaz
+• Bu sayede thread-safe bir yapı elde edilmiştir.
+
+8.4 Performans Değerlendirmesi
+Çoklu thread yaklaşımı sayesinde:
+• Algoritmaların toplam çalışma süresi azalmıştır
+• CPU kaynakları daha verimli kullanılmıştır
+• Gerçek zamanlı işletim sistemi davranışına daha yakın bir simülasyon elde edilmiştir
+Bu yapı, özellikle işlem sayısının yüksek olduğu Case 2 (200 süreç) için belirgin bir performans avantajı sağlamıştır.
