@@ -40,6 +40,3 @@ Process_ID,Arrival_Time,CPU_Burst_Time,Priority
 - Throughput
 - CPU Verimliliği
 - Bağlam Değiştirme Sayısı
-
-## 👤 Geliştirici
-Ad Soyad: (buraya adını yaz)
