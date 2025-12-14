@@ -58,3 +58,5 @@ public class SJFPreemptive implements Scheduler {
         return res;
     }
 }
+
+//Aleyna Zengin
