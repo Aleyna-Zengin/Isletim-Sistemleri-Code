@@ -21,12 +21,12 @@ Projede **2 farklı case dosyası** ve **6 farklı CPU zamanlama algoritması** 
 
 ## 📂 Proje Yapısı
 CPU_Scheduling_Project/
-├── outputs/
+├── CPU_Scheduling_Project_with_results/
 │   ├── results
 │   ├── case1.csv
 │   └── case2.csv
 ├── src/
-│   ├── cjava/cpusched
+│   ├── java/cpusched
 │   └── resources (case1.csv, case2.csv)
 ├── README.md
 └── REPORT.md
