@@ -1,7 +1,7 @@
 //Kontrol Eden Öğretmene Notlar:
 //Bu projenin belli başlı yerlerinde kullanıcı için görüntüyü güzelleştirmek ve okunabilirliği/anlaşılabilirliği arttırmak amacıyla yapay zekadan yardım alınmıştır. Örnek olarak: README.md raporundaki emojiler, düzenleme çizgileri vb.
 //Aleyna Zengin-2025/2026 Öğrenim Dönemi İşletim Sistemleri Dersi Proje Ödevi
-//Herkesçe erişilebilir olması adına ödev ingilizce ana yazım dili yerine alınarak yazılmıştır.
+//Herkesçe erişilebilir olması adına ödev ingilizce ana yazım dili olarak alınarak yazılmıştır.
 
 # CPU Scheduling Algorithms Project
 
