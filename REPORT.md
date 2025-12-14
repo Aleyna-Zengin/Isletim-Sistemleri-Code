@@ -103,4 +103,15 @@ En uygun algoritma, yanıt verme hızı veya verim gibi sistem hedeflerine bağl
 1. Place CSV files into the `src/` directory
 2. Run the program
 3. Output files will be generated in the `CPU_Scheduling_Project_with_results/` directory
+---
+
+## Multi-Thread Bölümü
+Bu projede, CPU zamanlama algoritmalarının performansını artırmak ve gerçek işletim sistemi davranışına daha yakın bir simülasyon oluşturmak amacıyla çoklu thread (multithreading) yaklaşımı kullanılmıştır.
+
+7.1 Amaç
+Ödev tanımında belirtilen: “Her yöntem ayrı bir thread olarak ve tüm yöntemler eş zamanlı olarak çalışmalı” şartını sağlamak amacıyla, her CPU zamanlama algoritması ayrı bir thread içerisinde çalıştırılmıştır.
+Bu yaklaşım sayesinde:
+• Algoritmalar birbirini beklemeden çalıştırılmıştır
+• Hesaplama süreleri paralel hale getirilmiştir
+• Gerçek çok çekirdekli sistem davranışı simüle edilmişti
 
