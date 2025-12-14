@@ -1,3 +1,5 @@
+//Bu projenin belli başlı yerlerinde kullanıcı için görüntüyü güzelleştirmek ve okunabilirliği/anlaşılabilirliği arttırmak amacıyla yapay zekadan yardım alınmıştır. Örnek olarak: README.md raporundaki emojiler, düzenleme çizgileri vb.
+
 
 # CPU Scheduling Algorithms Project
 
