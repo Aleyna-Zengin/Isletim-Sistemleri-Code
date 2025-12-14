@@ -1,7 +1,7 @@
 //Kontrol Eden Öğretmene Notlar:
 //Bu projenin belli başlı yerlerinde kullanıcı için görüntüyü güzelleştirmek ve okunabilirliği/anlaşılabilirliği arttırmak amacıyla yapay zekadan yardım alınmıştır. Örnek olarak: README.md raporundaki emojiler, düzenleme çizgileri vb.
 //Aleyna Zengin-2025/2026 Öğrenim Dönemi İşletim Sistemleri Dersi Proje Ödevi
-//Herkesçe erişilebilir olması adına ödev ingilizce ana yazım dili olarak alınarak yazılmıştır.
+//Herkesçe erişilebilir olması adına ödevin bazı yerlerinde ingilizce ana yazım dili olarak ele alınarak yazılmıştır.
 
 # CPU Scheduling Algorithms Project
 
@@ -21,11 +21,13 @@ Projede **2 farklı case dosyası** ve **6 farklı CPU zamanlama algoritması** 
 
 ## 📂 Proje Yapısı
 CPU_Scheduling_Project/
-├── data/
+├── outputs/
+│   ├── results
 │   ├── case1.csv
 │   └── case2.csv
 ├── src/
-├── outputs/
+│   ├── cjava/cpusched
+│   └── resources (case1.csv, case2.csv)
 ├── README.md
 └── REPORT.md
 
