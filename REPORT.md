@@ -132,3 +132,5 @@ Her algoritma:
 • CPU kaynakları daha verimli kullanılmıştır
 • Gerçek zamanlı işletim sistemi davranışına daha yakın bir simülasyon elde edilmiştir
 Bu yapı, özellikle işlem sayısının yüksek olduğu Case 2 (200 süreç) için belirgin bir performans avantajı sağlamıştır.
+
+//Aleyna Zengin
